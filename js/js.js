@@ -66,7 +66,7 @@ function nextMsg(i) {
   if (messages.length == i) {
       i = 0;
   }
-  $('#message').html(messages[i]).fadeIn(1500).delay(3000).fadeOut(500, function() {
+  $('#message').html(messages[i]).fadeIn(1500).delay(2000).fadeOut(500, function() {
       nextMsg(i + 1);
   });
 };
