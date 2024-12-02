@@ -534,13 +534,13 @@
 }
 
 #flip {
-    height:50px;
+    height: 90px;
     overflow:hidden;
   }
   
 #flip > div > div {
     color:#AA5DE5;
-    height:45px;
+    height:50px;
     margin-bottom:45px;
     display:inline-block;
 }
