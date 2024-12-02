@@ -61,3 +61,23 @@ var phoneInput = document.getElementById('phone');
 var phoneMask = IMask(phoneInput, {
     mask: '+{7} (000) 000-00-00'
 });
+
+function nextMsg(i) {
+  if (messages.length == i) {
+      i = 0;
+  }
+  $('#message').html(messages[i]).fadeIn(1500).delay(3000).fadeOut(500, function() {
+      nextMsg(i + 1);
+  });
+};
+
+var messages = [
+  "понимают шутки",
+  "с хорошим настроением",
+  "разуваются в коридоре",
+  "я хз чо придумать ахаха"
+  ];
+
+$('#message').hide();
+
+nextMsg(0);
