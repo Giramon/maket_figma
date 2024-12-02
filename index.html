@@ -7,7 +7,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <title>Index</title>
+    <link rel="stylesheet" href="css/all_pages_style.css">
+    <title>Главная</title>
 </head>
 <body>
     <header>
@@ -16,11 +17,12 @@
                 <a href="#"><img src="img/logo.png" alt="logo"></a>
             </div>
             <div class="select_city">
-                <select name="city" id="city">
-                    <option value="0">Челябинск</option>
-                    <option value="1">Москва</option>
-                    <option value="2">Другой</option>
-                </select>
+                <button class="dropmenu" onclick="myFunction()">Челябинск &or;</button>
+                <div class="select_city_hidden" id="myDropdown">
+                    <a href="#" class="active">Челябинск</a>
+                    <a href="#">Москва</a>
+                    <a href="#">Екатеринбург</a>
+                </div>
             </div>
             <div class="navigation">
                 <ul>
@@ -28,7 +30,7 @@
                     <li class="right_li"><a href="#">Стать мастером</a></li>
                 </ul>
             </div>
-            <button class="circle"></button>
+            <button onclick="document.location='profile.html'" class="circle"></button>
         </div>
     </header>
     <main>
@@ -37,7 +39,8 @@
                 <div class="content_shape">
                     <div class="text_info">
                         <h1>Помимо ключевых <br> 4 навыков, наши мастера</h1>
-                        <i>понимают шутки</i>
+                        <i>понимают шутки</i> <br>
+                        <i>с хорошим настроением</i>
                     </div>
                     <div class="button_order">
                         <button>Оформить заказ</button>
@@ -51,14 +54,16 @@
                 <img src="img/search.png" alt="search">
             </div>
             <div class="input_search">
+                <form action="masters.html">
                 <input type="text" placeholder="Найти своего мастера">
+                </form>
             </div>
         </div>
         <div class="flex_container">
-            <div class="flex">
+            <div class="flex hover_text">
                 <p>Ремонт</p>
             </div>
-            <div class="flex">
+            <div class="flex hover_text">
                 <p>Перевозки</p>
             </div>
             <div class="flex">
@@ -69,21 +74,21 @@
                     <button>Все категории</button>
                 </div>
                 <div class="anim_it">
-                    <div class="flex_animals_text">
+                    <div class="flex_animals_text hover_text">
                         <p>Животные</p>
                     </div>
-                    <div class="flex_it_text">
+                    <div class="flex_it_text hover_text">
                         <p>IT</p>
                     </div>
                 </div>
             </div>
-            <div class="flex">
+            <div class="flex hover_text">
                 <p>Красота</p>
             </div>
-            <div class="flex">
+            <div class="flex hover_text">
                 <p>Клининг</p>
             </div>
-            <div class="flex">
+            <div class="flex hover_text">
                 <p>Тренеры</p>
             </div>
         </div>
@@ -162,7 +167,7 @@
             <div class="flex_container_work">
                 <div class="elems_work">
                     <div class="img_elems">
-                        <img src="img/" alt="img">
+                        <img src="img/img1.svg" alt="img">
                     </div>
                     <div class="text_elems">
                         <p>Подробно опишите<br>задачу и отправьте заказ</p>
@@ -170,7 +175,7 @@
                 </div>
                 <div class="elems_work">
                     <div class="img_elems">
-                        <img src="img/" alt="img">
+                        <img src="img/img2.svg" alt="img">
                     </div>
                     <div class="text_elems">
                         <p>Получите отклик<br>мастеров</p>
@@ -178,7 +183,7 @@
                 </div>
                 <div class="elems_work">
                     <div class="img_elems">
-                        <img src="img/" alt="img">
+                        <img src="img/img3.svg" alt="img">
                     </div>
                     <div class="text_elems">
                         <p>Выберите мастера<br>и оформите заказ</p>
@@ -191,7 +196,7 @@
             <div class="flex_container_work">
                 <div class="elems_work">
                     <div class="img_elems">
-                        <img src="img/" alt="img">
+                        <img src="img/img4.svg" alt="img">
                     </div>
                     <div class="text_elems">
                         <p>Через поиск найдите<br>нужного мастера</p>
@@ -199,7 +204,7 @@
                 </div>
                 <div class="elems_work">
                     <div class="img_elems">
-                        <img src="img/" alt="img">
+                        <img src="img/img5.svg" alt="img">
                     </div>
                     <div class="text_elems">
                         <p>Свяжитесь с мастером<br>и договоритесь о работе</p>
@@ -207,7 +212,7 @@
                 </div>
                 <div class="elems_work">
                     <div class="img_elems">
-                        <img src="img/" alt="img">
+                        <img src="img/img6.svg" alt="img">
                     </div>
                     <div class="text_elems">
                         <p>Оформите заказ<br>и ожидайте выполнения</p>
@@ -231,7 +236,7 @@
                 </div>
             </div>
             <div class="app">
-                <img src="img/" alt="phone">
+                <img src="img/telephone.svg" alt="phone">
             </div>
         </div>
     </main>
@@ -248,10 +253,12 @@
                     <p>Сообщения</p>
                 </div>
                 <div class="elems_footer">
-                    <select name="select" id="select">
-                        <option value="0">Челябинск</option>
-                        <option value="1">Москва</option>
-                    </select>
+                    <button class="dropmenu2" onclick="myFunction2()">Челябинск &or;</button>
+                    <div class="select_city_hidden2" id="myDropdown2">
+                        <a href="#" class="active">Челябинск</a>
+                        <a href="#">Москва</a>
+                        <a href="#">Екатеринбург</a>
+                    </div>
                     <p>Поддержка</p>
                     <p>Колл-центр 8 946 853 49 27</p>
                     <p>pomogai@mail.ru</p>
