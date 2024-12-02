@@ -17,9 +17,10 @@ body {
 .dropmenu {
     background-color: white;
     color: black;
-    font-size: 40px;
+    font-size: 32px;
     border: none;
     cursor: pointer;
+    align-items: center;
 }
 
 .select_city {
@@ -46,7 +47,7 @@ body {
     display: block;
 }
 
-.select_city_hidden a:hover {color: #AA5DE5}
+.select_city_hidden a:hover {background-color: #F6EAFF}
 
 .select_city_hidden a:nth-child(1) {
     color: #AA5DE5;
@@ -86,7 +87,7 @@ body {
     display: block;
 }
 
-.select_city_hidden2 a:hover {color: #AA5DE5}
+.select_city_hidden2 a:hover {background-color: #F6EAFF}
 
 .select_city_hidden2 a:nth-child(1) {
     color: #AA5DE5;
@@ -179,7 +180,6 @@ body {
 }
 
 .social {
-    background-color: #CACACA;
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -199,14 +199,22 @@ body {
     cursor: pointer;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1440px) {
     .logo img {
         width: 150px;
         height: 50px;
     }
 
     .select_city_hidden {
-        width: 200px;
+        width: 300px;
+    }
+
+    .dropmenu img {
+        width: 30px;
+    }
+
+    .dropmenu2 img {
+        width: 20px;
     }
 
     .select_city_hidden a {
@@ -218,7 +226,7 @@ body {
     }
 
     .select_city_hidden2 {
-        width: 200px;
+        width: 300px;
     }
 
     .select_city_hidden2 a {
