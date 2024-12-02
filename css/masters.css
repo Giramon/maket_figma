@@ -1,0 +1,157 @@
+.max_container {
+    display: flex;
+    width: 1740px;
+    margin: 0 auto;
+    margin-top: 95px;
+    margin-bottom: 200px;
+}
+
+.left_container {
+    margin-top: 35px;
+}
+
+.right_container {
+    margin-left: 50px;
+}
+
+.btn_flex {
+    display: flex;
+    align-items: center;
+}
+
+.text_flex {
+    font-size: 32px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.use {
+    font-weight: 500;
+}
+
+.block_card_master {
+    width: 1400px;
+    display: flex;
+    padding-top: 60px;
+    background-color: #E4CCFF;
+    border: 0px;
+    border-radius: 30px;
+}
+
+.left_img_master {
+    margin-left: 50px;
+    margin-right: 120px;
+}
+
+.flex_bold_text_btn {
+    display: flex;
+}
+
+.bold_text {
+    font-size: 48px;
+    font-weight: 700;
+    margin-right: 40px;
+}
+
+.btn_master button {
+    width: 310px;
+    height: 70px;
+    border-radius: 15px;
+    background-color: #9C5DE0;
+    font-size: 32px;
+    font-weight: 500;
+    border: 0px;
+    cursor: pointer;
+    color: white;
+}
+
+.city_text p {
+    margin-top: 25px;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.btn_chat_telephone {
+    display: flex;
+}
+
+.chat button {
+    width: 90px;
+    height: 70px;
+    border: 4px solid #9C5DE0;
+    border-radius: 15px;
+    font-size: 32px;
+    font-weight: 500;
+    background-color: #E4CCFF;
+    cursor: pointer;
+    color: #9C5DE0;
+}
+
+.telephone button {
+    width: 170px;
+    height: 70px;
+    border: 4px solid #9C5DE0;
+    background-color: #E4CCFF;
+    border-radius: 15px;
+    margin-left: 20px;
+    font-size: 32px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #9C5DE0;
+}
+
+.text_description {
+    margin-top: 65px;
+    width: 590px;
+    font-size: 24px;
+    margin-bottom: 60px;
+}
+
+.comment_info {
+    margin-top: 90px;
+    display: flex;
+}
+
+.flex_info_text {
+    margin-top: 30px;
+    display: flex;
+}
+
+.info {
+    width: 370px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.info_otvet {
+    font-size: 32px;
+}
+
+.comment_text {
+    margin-left: 20px;
+}
+
+.flex_master_score {
+    display: flex;
+    align-items: center;
+}
+
+.total_score_master {
+    margin-top: 65px;
+    margin-left: 280px;
+    display: flex;
+}
+
+.total_text {
+    margin-left: 10px;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.score_comment_text {
+    margin-top: 65px;
+    margin-left: 75px;
+    font-size: 32px;
+    font-weight: 500;
+}
