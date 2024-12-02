@@ -530,8 +530,7 @@
 }
 
 #btn_close:hover {
-    background-color: #9C5DE0;
-    border: 3px solid black;
+    color: #FFE656;
 }
 
 @media (max-width: 1440px) {
