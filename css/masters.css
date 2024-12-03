@@ -155,3 +155,413 @@
     font-size: 32px;
     font-weight: 500;
 }
+
+.photo_comments_top {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 75px;
+}
+
+.img_name {
+    display: flex;
+}
+
+.stars_com {
+    display: flex;
+}
+
+.stars_com img {
+    width: 20px;
+    height: 20px;
+}
+
+.name_com_star {
+    margin-left: 25px;
+}
+
+.date_text_right_com {
+    margin-left: 230px;
+    color: #585858;
+    font-size: 11px;
+}
+
+.text_name_com {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.stars_com {
+    margin-top: 10px;
+}
+
+.text_comments_top {
+    margin-top: 10px;
+    margin-left: 75px;
+    width: 540px;
+    font-size: 16px;
+}
+
+.btn_next img {
+    margin-left: 600px;
+    margin-top: -60px;
+    cursor: pointer;
+}
+
+.btn_select_condition {
+    margin-top: 120px;
+}
+
+.btn_select {
+    margin-top: 30px;
+}
+
+.btn_select button {
+    width: 1400px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #F7F0FF99;
+    border: 0px;
+    border-radius: 30px;
+}
+
+.btn_select_condition p {
+    margin-left: 30px;
+}
+
+.first span {
+    margin-left: 530px;
+    color: #9C5DE0;
+}
+
+.odin span {
+    margin-left: 420px;
+    color: #9C5DE0; 
+}
+
+.dva span {
+    margin-left: 735px;
+    color: #9C5DE0; 
+}
+
+.tri span {
+    margin-left: 825px;
+    color: #9C5DE0; 
+}
+
+.chet span {
+    margin-left: 690px;
+    color: #9C5DE0; 
+}
+
+.piat span {
+    margin-left: 845px;
+    color: #9C5DE0; 
+}
+
+.six span {
+    margin-left: 525px;
+    color: #9C5DE0; 
+}
+
+.seven img {
+    margin-left: 1075px;
+    color: #9C5DE0; 
+}
+
+.comment_down {
+    width: 1400px;
+    margin-top: 120px;
+    margin-bottom: 150px;
+    border-radius: 30px;
+    background-color: #FFF6C642;
+}
+
+.comment {
+    padding-top: 90px;
+    margin-left: 70px;
+    display: flex;
+}
+
+.stars_com {
+    display: flex;
+}
+
+.stars_com img {
+    width: 40px;
+    height: 40px;
+}
+
+.text_down_comment {
+    width: 1300px;
+    font-size: 32px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.name_com {
+    font-size: 36px;
+}
+
+.name_stars_down {
+    margin-left: 35px;
+}
+
+.date_com_down {
+    font-size: 32px;
+}
+
+.data1 {
+    margin-left: 700px;
+}
+
+.data2 {
+    margin-left: 745px;
+}
+
+.data3 {
+    margin-left: 720px;
+}
+
+.data4 {
+    margin-left: 760px;
+}
+
+.btn_text_down_com {
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+
+.btn_text_down_com a {
+    text-decoration: none;
+    color: #9E9E9E;
+    margin-left: 1235px;
+    font-size: 36px;
+}
+
+.last_container {
+    display: flex;
+}
+
+.adress_text {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.oblast {
+    margin-top: 30px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.name_city {
+    font-size: 36px;
+}
+
+.btn_last {
+    margin-top: 200px;
+}
+
+.btn_last button {
+    width: 650px;
+    height: 120px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 0px;
+    background-color: #9C5DE0;
+    font-size: 64px;
+    font-weight: 500;
+    color: white;
+}
+
+.block_maps {
+    width: 640px;
+    height: 500px;
+    background-color: #D9D9D9;
+    border-radius: 30px;
+    margin-left: 120px;
+}
+
+@media (max-width:1440px) {
+    .text_flex {
+        font-size: 20px;
+    }
+
+    .max_container {
+        width: 1300px;
+    }
+
+    .block_card_master {
+        width: 1050px;
+    }
+
+    .left_img_master {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .left_img_master img {
+        width: 300px;
+    }
+
+    .bold_text {
+        font-size: 36px;
+    }
+
+    .btn_master button {
+        width: 250px;
+        height: 50px;
+        font-size: 28px;
+    }
+
+    .city_text p {
+        font-size: 28px;
+    }
+
+    .text_description {
+        margin-top: 35px;
+        font-size: 20px;
+    }
+
+    .info {
+        width: 280px;
+        font-size: 24px;
+    }
+
+    .info_otvet {
+        font-size: 24px;
+    }
+
+    .comment_text {
+        margin-left: 0px;
+    }
+
+    .date_text_right_com {
+        margin-left: 180px;
+    }
+
+    .btn_next img {
+        margin-left: 530px;
+        margin-top: -10px;
+    }
+
+    .score_comment_text {
+        font-size: 28px;
+        margin-left: 40px;
+    }
+
+    .photo_comments_top {
+        margin-left: 40px;
+    }
+
+    .text_comments_top {
+        margin-left: 40px;
+        font-size: 15px;
+    }
+
+    .stars_com img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .total_text {
+        font-size: 28px;
+    }
+
+    .star_img img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .btn_select button {
+        width: 1050px;
+    }
+
+    .first span {
+        margin-left: 200px;
+    }
+
+    .odin span {
+        margin-left: 100px;
+    }
+
+    .dva span {
+        margin-left: 410px;
+    }
+
+    .tri span {
+        margin-left: 500px;
+    }
+
+    .chet span {
+        margin-left: 360px;
+    }
+
+    .piat span {
+        margin-left: 510px;
+    }
+
+    .six span {
+        margin-left: 195px;
+    }
+
+    .seven img {
+        margin-left: 700px;
+    }
+
+    .comment_down {
+        width: 1050px;
+    }
+
+    .data1 {
+        margin-left: 300px;
+    }
+
+    .data2 {
+        margin-left: 340px;
+    }
+
+    .data3 {
+        margin-left: 300px;
+    }
+
+    .data4 {
+        margin-left: 350px;
+    }
+
+    .text_down_comment {
+        width: 950px;
+        font-size: 28px;
+    }
+
+    .adress_text {
+        font-size: 36px;
+    }
+
+    .oblast {
+        font-size: 28px;
+    }
+
+    .name_city {
+        font-size: 28px;
+    }
+
+    .btn_last button {
+        width: 400px;
+        height: 80px;
+        font-size: 44px;
+    }
+
+    .block_maps {
+        height: 470px;
+        margin-left: 0px;
+    }
+
+    .btn_text_down_com a {
+        margin-left: 900px;
+    }
+}
