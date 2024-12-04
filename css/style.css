@@ -563,6 +563,9 @@
 
 @media (max-width: 1540px) {
 
+    .img_search {
+         left: 150px;   
+    }
     .container_order {
         width: 1300px;
         height: 695px;
