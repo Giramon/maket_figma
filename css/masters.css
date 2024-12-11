@@ -1,3 +1,8 @@
+.left_container a {
+    color: black;
+    text-decoration: none;
+}
+
 .max_container {
     display: flex;
     width: 1740px;
