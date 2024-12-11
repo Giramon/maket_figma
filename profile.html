@@ -17,11 +17,12 @@
                 <a href="#"><img src="img/logo.png" alt="logo"></a>
             </div>
             <div class="select_city">
-                <button class="dropmenu" onclick="myFunction()">Челябинск &or;</button>
+                <button class="dropmenu" onclick="myFunction()">Челябинск <img src="img/down.svg" alt="down"></button>
                 <div class="select_city_hidden" id="myDropdown">
                     <a href="#" class="active">Челябинск</a>
                     <a href="#">Москва</a>
                     <a href="#">Екатеринбург</a>
+                    <a href="#">Санкт-Петербург</a>
                 </div>
             </div>
             <div class="navigation">
@@ -30,11 +31,182 @@
                     <li class="right_li"><a href="#">Стать мастером</a></li>
                 </ul>
             </div>
-            <button class="circle"></button>
+            <button onclick="document.location='profile.html'" class="circle"></button>
         </div>
     </header>
     <main>
-        
+        <div class="photo_link_vacancy">
+            <div class="photo_link">
+                <div class="photo">
+                    <img src="img/photo_profile.svg" alt="photo">
+                </div>
+                <div class="links">
+                    <div class="link">
+                        <a href="#">управление профилем</a>
+                    </div>
+                    <div class="link">
+                        <a href="#">адреса</a>
+                    </div>
+                    <div class="link">
+                        <a href="#">звонки</a>
+                    </div>
+                    <div class="link">
+                        <a href="#">чат</a>
+                    </div>
+                    <div class="link">
+                        <a href="#">мои отзывы</a>
+                    </div>
+                    <div class="link">
+                        <a href="#">ждут оценки</a>
+                    </div>
+                    <div class="link">
+                        <a href="#">помощь</a>
+                    </div>
+                    <div class="link">
+                        <a href="#">безопасный вход</a>
+                    </div>
+                    <div class="link">
+                        <a href="#">удаление профиля</a>
+                    </div>
+                </div>
+            </div>
+            <div class="vacancy">
+                <div class="btn_vacancy">
+                    <div class="btn_vc">
+                        <button>
+                            <img src="img/pencil.svg" alt="pen">
+                            <p>мои<br>заказы</p>
+                        </button>
+                    </div>
+                    <div class="btn_vc">
+                        <button>
+                            <img src="img/star_profile.svg" alt="star">
+                            <p>отзывы<br><span>4,67</span></p>
+                        </button>
+                    </div>
+                    <div class="btn_vc">
+                        <button>
+                            <img src="img/money_profile.svg" alt="money">
+                            <p>кошелек<br><span>4 500 руб</span></p>
+                        </button>
+                    </div>
+                </div>
+                <div class="create_vacancy_block">
+                    <div class="vacancy_block_text">
+                        <div class="title_text_vacancy">
+                            <p>Заполните вашу первую вакансию</p>
+                        </div>
+                        <div class="ul_vacancy">
+                            <div class="flex_ul_text">
+                                <img src="img/2.svg" alt="li">
+                                <p>Около 87% работодателей находят сотрудника при помощи вакансии</p>
+                            </div>
+                            <div class="flex_ul_text">
+                                <img src="img/2.svg" alt="li">
+                                <p>За 30 дней вакансию смогут увидеть<br>до 2 188 соискателей из Челябинска</p>
+                            </div>
+                            <div class="flex_ul_text">
+                                <img src="img/2.svg" alt="li">
+                                <p>Сразу после размещения вакансии, вы сможете позвонить самым подходящим соискателям</p>
+                            </div>
+                        </div>
+                        <div class="btn_add_vacancy">
+                            <button>Разместить вакансию</button>
+                        </div>
+                    </div>
+                    <div class="vacancy_block_img">
+                        <img src="img/people_profile.svg" alt="people">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="actual_seller">
+            <div class="title_text">
+                <p>Актуальные заказы</p>
+            </div>
+            <div class="select_text">
+                <p>заказанные</p>
+                <p>предоставляемые</p>
+            </div>
+            <div class="block_active_seller">
+                <div class="img_seller">
+                    <img src="img/master1.svg" alt="photo">
+                </div>
+                <div class="name_service">
+                    <div class="name">
+                        <p class="bold_text mast">Мастер:</p>
+                        <p>Андрей</p>
+                    </div>
+                    <div class="service">
+                        <p class="bold_text serv">Услуга:</p>
+                        <p>Ремонт холодильника</p>
+                    </div>
+                </div>
+                <div class="time_date">
+                    <div class="time">
+                        <p>18:00</p>
+                    </div>
+                    <div class="date">
+                        <p>28.09</p>
+                    </div>
+                </div>
+                <div class="price">
+                    <p>500 руб</p>
+                </div>
+            </div>
+            <div class="block_active_seller">
+                <div class="img_seller">
+                    <img src="img/master2.svg" alt="photo">
+                </div>
+                <div class="name_service">
+                    <div class="name">
+                        <p class="bold_text mast">Мастер:</p>
+                        <p>Антон</p>
+                    </div>
+                    <div class="service">
+                        <p class="bold_text serv">Услуга:</p>
+                        <p>Сборка кухни</p>
+                    </div>
+                </div>
+                <div class="time_date dva">
+                    <div class="time">
+                        <p>10:00</p>
+                    </div>
+                    <div class="date">
+                        <p>01.10</p>
+                    </div>
+                </div>
+                <div class="price">
+                    <p>4000 руб</p>
+                </div>
+            </div>
+            <div class="block_active_seller">
+                <div class="img_seller">
+                    <img src="img/master3.svg" alt="photo">
+                </div>
+                <div class="name_service">
+                    <div class="name">
+                        <p class="bold_text mast">Мастер:</p>
+                        <p>Дмитрий</p>
+                    </div>
+                    <div class="service">
+                        <p class="bold_text serv">Услуга:</p>
+                        <p>Установка унитаза</p>
+                    </div>
+                </div>
+                <div class="time_date tri">
+                    <div class="time">
+                        <p>15:00</p>
+                    </div>
+                    <div class="date">
+                        <p>05.10</p>
+                    </div>
+                </div>
+                <div class="price">
+                    <p>2000 руб</p>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="footer_container">
@@ -49,11 +221,12 @@
                     <p>Сообщения</p>
                 </div>
                 <div class="elems_footer">
-                    <button class="dropmenu2" onclick="myFunction2()">Челябинск &or;</button>
+                    <button class="dropmenu2" onclick="myFunction2()">Челябинск <img src="img/down.svg" alt="down"></button>
                     <div class="select_city_hidden2" id="myDropdown2">
                         <a href="#" class="active">Челябинск</a>
                         <a href="#">Москва</a>
                         <a href="#">Екатеринбург</a>
+                        <a href="#">Санкт-Петербург</a>
                     </div>
                     <p>Поддержка</p>
                     <p>Колл-центр 8 946 853 49 27</p>
@@ -63,13 +236,13 @@
                     <p>Мы в соц сетях</p>
                     <div class="social_link">
                         <div class="social">
-                            <a href="#"><img src="img/" alt="vk"></a>
+                            <a href="#"><img src="img/vk.svg" alt="vk"></a>
                         </div>
                         <div class="social">
-                            <a href="#"><img src="img/" alt="email"></a>
+                            <a href="#"><img src="img/tg.svg" alt="tg"></a>
                         </div>
                         <div class="social">
-                            <a href="#"><img src="img/" alt="tg"></a>
+                            <a href="#"><img src="img/ok.svg" alt="ok"></a>
                         </div>
                     </div>
                 </div>
