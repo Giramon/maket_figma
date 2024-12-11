@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/searchpage.css">
+    <link rel="stylesheet" href="css/all_pages_style.css">
+    <title>Личный кабинет</title>
+</head>
+<body>
+    <header>
+        <div class="nav_container">
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+            </div>
+            <div class="select_city">
+                <button class="dropmenu" onclick="myFunction()">Челябинск <img src="img/down.svg" alt="down"></button>
+                <div class="select_city_hidden" id="myDropdown">
+                    <a href="#" class="active">Челябинск</a>
+                    <a href="#">Москва</a>
+                    <a href="#">Екатеринбург</a>
+                    <a href="#">Санкт-Петербург</a>
+                </div>
+            </div>
+            <div class="navigation">
+                <ul>
+                    <li><a href="#">Заказы</a></li>
+                    <li class="right_li"><a href="#">Стать мастером</a></li>
+                </ul>
+            </div>
+            <button onclick="document.location='profile.html'" class="circle"></button>
+        </div>
+    </header>
+    <main>
+        <div class="search_input_bar">
+            <img src="img/search.png" alt="search">
+            <input type="text" value="Сантехник">
+        </div>
+        <div class="max_container">
+            <div class="left_container">
+                <a href="#">
+                    <div class="btn_flex">
+                        <div class="img_flex">
+                            <img src="img/users.jpg" alt="user">
+                        </div>
+                        <div class="text_flex use">
+                            <p>Специалисты</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="btn_flex">
+                        <div class="img_flex">
+                            <img src="img/pencil.jpg" alt="pencil">
+                        </div>
+                        <div class="text_flex">
+                            <p>Заказы</p>
+                        </div>
+                    </div>
+                </a>
+                <div class="btn_flex">
+                    <div class="img_flex">
+                        <img src="img/message.jpg" alt="message">
+                    </div>
+                    <div class="text_flex">
+                        <p>Сообщения</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right_container">
+                <div class="card">
+                    <a href="masters.html">
+                        <div class="block_card_master">
+                            <div class="left_img_master">
+                                <img src="img/master.svg" alt="master">
+                            </div>
+                            <div class="right_card_block">
+                                <div class="flex_bold_text_btn">
+                                    <div class="bold_text">
+                                        <p>Комикадзов Антон</p>
+                                    </div>
+                                </div>
+                                <div class="city_text">
+                                    <p>Челябинск</p>
+                                </div>
+                                <div class="btn_chat_telephone">
+                                    <div class="chat">
+                                        <button>4,7<img src="img/search_stars.svg" alt="star"></button>
+                                    </div>
+                                    <div class="telephone">
+                                        <button>от 300 р.</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text_description">
+                            <p>Привет! Меня зовут Антон, и я занимаюсь ремонтом и установкой сантехники и электрики. У меня профильное образование. Выполняю работы в сроки и качественно, могу...</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card otstup">
+                    <a href="masters.html">
+                        <div class="block_card_master">
+                            <div class="left_img_master">
+                                <img src="img/daniil.svg" alt="master">
+                            </div>
+                            <div class="right_card_block">
+                                <div class="flex_bold_text_btn">
+                                    <div class="bold_text">
+                                        <p>Чернов Даниил</p>
+                                    </div>
+                                </div>
+                                <div class="city_text">
+                                    <p>Челябинск</p>
+                                </div>
+                                <div class="btn_chat_telephone">
+                                    <div class="chat">
+                                        <button>4,2<img src="img/search_stars.svg" alt="star"></button>
+                                    </div>
+                                    <div class="telephone">
+                                        <button>от 500 р.</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text_description">
+                            <p>Здравствуйте! Меня зовут Даниил, и я профессиональный сантехник с многолетним опытом работы в этой сфере. Я предлагаю широкий спектр услуг, чтобы помочь вам решить...</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card otstup">
+                    <a href="masters.html">
+                        <div class="block_card_master">
+                            <div class="left_img_master">
+                                <img src="img/vladimir.svg" alt="master">
+                            </div>
+                            <div class="right_card_block">
+                                <div class="flex_bold_text_btn">
+                                    <div class="bold_text">
+                                        <p>Невский Владимир</p>
+                                    </div>
+                                </div>
+                                <div class="city_text">
+                                    <p>Челябинск</p>
+                                </div>
+                                <div class="btn_chat_telephone">
+                                    <div class="chat">
+                                        <button>4,4<img src="img/search_stars.svg" alt="star"></button>
+                                    </div>
+                                    <div class="telephone">
+                                        <button>от 100 р.</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text_description">
+                            <p>Здравствуйте! Меня зовут Владимир, и я ваш надежный сантехник. С многолетним опытом я готов предложить вам широкий спектр сантехнических услуг. Помогу устранить...</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card otstup">
+                    <a href="masters.html">
+                        <div class="block_card_master">
+                            <div class="left_img_master">
+                                <img src="img/anna.svg" alt="master">
+                            </div>
+                            <div class="right_card_block">
+                                <div class="flex_bold_text_btn">
+                                    <div class="bold_text">
+                                        <p>Безбашенова Анна</p>
+                                    </div>
+                                </div>
+                                <div class="city_text">
+                                    <p>Челябинск</p>
+                                </div>
+                                <div class="btn_chat_telephone">
+                                    <div class="chat">
+                                        <button>4,6<img src="img/search_stars.svg" alt="star"></button>
+                                    </div>
+                                    <div class="telephone">
+                                        <button>от 100 р.</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text_description">
+                            <p>Привет! Меня зовут Анна, я уже вижу, что вас смущает то, что я женщина, но ведь никто, кроме женщины, не способен справиться деликатно и аккуратно с проблемой, поэтому моя...</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="btn_show_more">
+                    <button>Показать ещё<img src="img/down.svg" alt="down"></button>
+                </div>
+            </div>
+            <div class="filter_container">
+                <div class="title_filter">
+                    <p>Фильтры</p>
+                </div>
+                <div class="form">
+                    <form action="#">
+                        <div class="inputs act">
+                            <button></button>
+                            <p>Все</p>  
+                        </div>
+                        <div class="inputs">
+                            <button></button> 
+                            <p>Частные</p>  
+                        </div>
+                        <div class="inputs">
+                            <button></button>
+                            <p>Компании</p>  
+                        </div>
+                        <div class="raiting_text">
+                            <p>Рейтинг специалиста</p>
+                            <div class="inputs">
+                                <button></button>
+                                <p>4 звезды и выше</p>
+                            </div>
+                        </div>
+                        <div class="price_text">
+                            <p>Стоимость</p>
+                            <div class="price_num">
+                                <input type="text" placeholder="от">
+                                <input type="text" placeholder="до">
+                            </div>
+                        </div>
+                        <div class="btn_sub">
+                            <input type="submit" value="Применить">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_container">
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+            </div>
+            <div class="flex_container_footer">
+                <div class="elems_footer">
+                    <p>Заказы</p>
+                    <p>Специалисты</p>
+                    <p>Стать мастером</p>
+                    <p>Сообщения</p>
+                </div>
+                <div class="elems_footer">
+                    <button class="dropmenu2" onclick="myFunction2()">Челябинск <img src="img/down.svg" alt="down"></button>
+                    <div class="select_city_hidden2" id="myDropdown2">
+                        <a href="#" class="active">Челябинск</a>
+                        <a href="#">Москва</a>
+                        <a href="#">Екатеринбург</a>
+                        <a href="#">Санкт-Петербург</a>
+                    </div>
+                    <p>Поддержка</p>
+                    <p>Колл-центр 8 946 853 49 27</p>
+                    <p>pomogai@mail.ru</p>
+                </div>
+                <div class="elems_footer">
+                    <p>Мы в соц сетях</p>
+                    <div class="social_link">
+                        <div class="social">
+                            <a href="#"><img src="img/vk.svg" alt="vk"></a>
+                        </div>
+                        <div class="social">
+                            <a href="#"><img src="img/tg.svg" alt="tg"></a>
+                        </div>
+                        <div class="social">
+                            <a href="#"><img src="img/ok.svg" alt="ok"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/js.js"></script>
+</body>
+</html>
