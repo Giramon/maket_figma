@@ -1,0 +1,275 @@
+
+.photo_link_vacancy {
+    display: flex;
+    width: 1740px;
+    margin: 0 auto;
+    margin-top: 55px;
+}
+
+.links {
+    margin-top: 15px;
+    font-size: 32px;
+}
+
+.link {
+    margin-top: 10px;
+}
+
+.link a {
+    color: black;
+    text-decoration: none;
+}
+
+.vacancy {
+    margin-left: 115px;
+    margin-top: 40px;
+    width: 1300px;
+}
+
+.btn_vacancy {
+    display: flex;
+    width: 960px;
+    justify-content: space-between;
+}
+
+.btn_vc button {
+    width: 300px;
+    height: 120px;
+    text-align: left;
+    display: flex;
+    font-size: 32px;
+    background-color: #FFF6C6;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn_vc img {
+    width: 22px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.btn_vc p {
+    margin-left: 18px;
+    margin-top: 20px;
+}
+
+.btn_vc span {
+    color: #AA5DE5;
+}
+
+.create_vacancy_block {
+    width: 1300px;
+    background-color: #E4CCFF;
+    border-radius: 30px;
+    margin-top: 40px;
+    padding-top: 40px;
+    display: flex;
+}
+
+.vacancy_block_text {
+    margin-left: 75px;
+}
+
+.title_text_vacancy {
+    font-size: 48px;
+    font-weight: 700;
+    width: 445px;
+}
+
+.ul_vacancy {
+    width: 600px;
+    margin-top: 34px;
+}
+
+.flex_ul_text {
+    font-size: 24px;
+    display: flex;
+}
+
+.flex_ul_text p {
+    margin-left: 10px;
+}
+
+.flex_ul_text img {
+    transform: rotate(120deg);
+    margin-top: -30px;
+}
+
+.btn_add_vacancy button {
+    width: 400px;
+    height: 80px;
+    font-size: 32px;
+    font-weight: 500;
+    background-color: #AA5DE5;
+    border: 0px;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+
+.vacancy_block_img {
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+.actual_seller {
+    width: 1740px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.title_text {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.select_text {
+    display: flex;
+    font-size: 24px;
+    width: 480px;
+    margin: 0 auto;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.select_text p:nth-child(1) {
+    font-weight: 700;
+}
+
+.block_active_seller {
+    width: 1740px;
+    height: 290px;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 30px;
+    display: flex;
+    background-color: #FFF6C680;
+}
+
+.img_seller {
+    margin-left: 40px;
+}
+
+.name_service {
+    margin-left: 110px;
+    font-size: 32px;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+}
+
+.service {
+    display: flex;
+    align-items: center;
+}
+
+.bold_text {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.mast {
+    margin-right: 60px;
+}
+
+.serv {
+    margin-right: 70px;
+}
+
+.time_date {
+    margin-left: 370px;
+    color: #AA5DE5;
+}
+
+.dva {
+    margin-left: 500px;
+}
+
+.tri {
+    margin-left: 425px;
+}
+
+.time {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.date {
+    font-size: 32px;
+    text-align: right;
+}
+
+.price {
+    color: #AA5DE5;
+    margin-left: 90px;
+    font-size: 48px;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+@media (max-width: 1540px) {
+    .photo_link_vacancy {
+        width: 1360px;
+    }
+
+    .vacancy {
+        margin-left: 50px;
+    }
+
+    .photo img {
+        width: 250px;
+    }
+
+    .create_vacancy_block {
+        width: 1000px;
+    }
+    
+    .ul_vacancy {
+        width: 400px;
+    }
+
+    .flex_ul_text {
+        font-size: 20px;
+    }
+
+    .vacancy_block_img {
+        margin-top: 210px;
+    }
+
+    .vacancy_block_img img {
+        width: 350px;
+    }
+
+    .actual_seller {
+        width: 1360px;
+    }
+
+    .block_active_seller {
+        width: 1360px;
+    }
+
+    .name_service {
+        margin-left: 30px;
+    }
+
+    .time_date {
+        margin-left: 50px;
+    }
+
+    .dva {
+        margin-left: 190px;
+    }
+
+    .tri {
+        margin-left: 115px;
+    }
+}
