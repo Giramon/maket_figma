@@ -1,0 +1,283 @@
+.max_container {
+    width: 1740px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_container a {
+    color: black;
+    text-decoration: none;
+}
+
+.btn_flex {
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+}
+
+.text_flex {
+    margin-left: 20px;
+}
+
+.use {
+    font-weight: 500;
+}
+
+.right_container {
+    width: 1400px;
+}
+
+.btn_status_orders {
+    display: flex;
+    width: 1400px;
+    justify-content: space-between;
+}
+
+.btn_order button {
+    width: 450px;
+    height: 90px;
+    font-size: 48px;
+    border: 4px solid #AA5DE5;
+    border-radius: 15px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.active_btn_orders button {
+    background-color: #AA5DE5;
+    color: white;
+    font-weight: 500;
+}
+
+.block_form {
+    margin-top: 40px;
+    width: 1400px;
+    background-color: #F7F0FF;
+    border-radius: 30px;
+    border-bottom-left-radius: 250px;
+    border-top-right-radius: 250px;
+    padding-top: 70px;
+    padding-left: 70px;
+    padding-bottom: 70px;
+}
+
+.title_text_form {
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.form form {
+    width: 1280px;
+    margin-top: 30px;
+}
+
+.flex_inputs {
+    display: flex;
+}
+
+.input_uslugi input {
+    width: 910px;
+    height: 100px;
+    background-color: #F7F0FF;
+    border-radius: 15px;
+    border: 4px solid black;
+    font-size: 32px;
+    padding-left: 40px;
+}
+
+.input_down_category button {
+    margin-left: 20px;
+    width: 300px;
+    height: 100%;
+    cursor: pointer;
+    color: #6B6B6B;
+    background-color: #F7F0FF;
+    border: 4px solid black;
+    border-radius: 15px;
+    font-size: 32px;
+}
+
+.big_text_input textarea {
+    width: 1230px;
+    height: 440px;
+    border-radius: 15px;
+    margin-top: 20px;
+    border: 4px solid black;
+    background-color: #F7F0FF;
+    font-size: 32px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.rtb_input button {
+    width: 410px;
+    height: 100px;
+    font-size: 32px;
+    cursor: pointer;
+    background-color: #F7F0FF;
+    color: #6B6B6B;
+    border-radius: 15px;
+    border: 4px solid black;
+}
+
+.rtb_inp {
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.photo_address {
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.pa_input button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 625px;
+    height: 100px;
+    background-color: #F7F0FF;
+    color: #6B6B6B;
+    border: 4px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 32px;
+}
+
+.pa_input img {
+    margin-left: 23px;
+}
+
+.black_text button {
+    color: black;
+}
+
+.send_btn button {
+    width: 420px;
+    height: 100px;
+    margin-top: 30px;
+    border-radius: 15px;
+    border: 0;
+    background-color: #AA5DE5;
+    color: white;
+    font-size: 48px;
+    font-weight: 500;
+    margin-left: 860px;
+    cursor: pointer;
+}
+
+.payment_block {
+    width: 1400px;
+    display: flex;
+    margin-top: 70px;
+    border-radius: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom-right-radius: 250px;
+    border-top-left-radius: 250px;
+    background-color: #FFFAE2;
+}
+
+.title_text_payment {
+    margin-left: 80px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.more_info_text {
+    width: 780px;
+    margin-left: 80px;
+}
+
+.more_info_text p {
+    font-size: 32px;
+    margin-top: 34px;
+}
+
+.right_block img {
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+footer {
+    margin-top: 125px;
+}
+
+@media (max-width:1540px) {
+    .max_container {
+        width: 1360px;
+    }
+
+    .right_container {
+        width: 1000px;
+    }
+
+    .btn_order button {
+        width: 300px;
+        font-size: 36px;
+    }
+
+    .btn_status_orders {
+        width: 1000px;
+    }
+
+    .block_form {
+        width: 1000px;
+        padding-left: 20px;
+    }
+
+    .title_text_form {
+        font-size: 50px;
+    }
+
+    .form form {
+        width: 1000px;
+    }
+
+    .input_uslugi input {
+        width: 600px;
+    }
+
+    .big_text_input textarea {
+        width: 920px;
+    }
+
+    .rtb_input button {
+        width: 300px;
+    }
+
+    .flex_inputs {
+        width: 970px;
+    }
+
+    .pa_input button {
+        width: 460px;
+    }
+
+    .send_btn button {
+        margin-left: 550px;
+    }
+
+    .payment_block {
+        width: 1020px;
+    }
+
+    .title_text_payment {
+        font-size: 36px;
+    }
+
+    .more_info_text {
+        width: 550px;
+    }
+
+    .more_info_text p {
+        font-size: 24px;
+    }
+
+    .right_block img {
+        width: 340px;
+        margin-left: 0px;
+    }
+}
