@@ -196,7 +196,7 @@
     background-color: #FFFAE2;
     color: #AA5DE5;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: bold;
     margin-right: 30px;
     cursor: pointer;
 }
@@ -209,7 +209,7 @@
     background-color: #FFFAE2;
     color: #AA5DE5;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: bold;
     cursor: pointer;
 }
 
@@ -240,4 +240,56 @@
 
 .btn_show_more img {
     margin-left: 570px;
+}
+
+@media (max-width: 1540px) {
+    .search_input_bar {
+        width: 1360px;
+    }
+
+    .search_input_bar input {
+        width: 1130px;
+    }
+
+    .search_input_bar img {
+        left: 140px;
+    }
+
+    .max_container {
+        width: 1360px;
+    }
+
+    .text_flex {
+        font-size: 20px;
+    }
+
+    .filter_container {
+        font-size: 20px;
+    }
+
+    .title_filter {
+        font-size: 32px;
+    }
+
+    .inputs button {
+        width: 25px;
+        height: 25px;
+    }
+
+    .price_num {
+        width: 250px;
+    }
+
+    .price_num input {
+        width: 100px;
+        font-size: 24px;
+        padding: 5px 10px;
+        height: 35px;
+    }
+
+    .btn_sub input {
+        width: 250px;
+        font-size: 32px;
+        height: 60px;
+    }
 }
