@@ -21,16 +21,20 @@
     font-size: 48px;
 }
 
+.top_marg {
+    margin-top: 40px;
+}
+
+.img_flex img {
+    width: 40px;
+}
+
 .max_container {
     display: flex;
     width: 1740px;
     margin: 0 auto;
     margin-top: 95px;
     margin-bottom: 100px;
-}
-
-.left_container {
-    margin-top: 35px;
 }
 
 .left_container a {
