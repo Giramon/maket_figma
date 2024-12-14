@@ -218,6 +218,10 @@ footer {
         width: 1360px;
     }
 
+    .btn_flex {
+        font-size: 20px;
+    }
+    
     .right_container {
         width: 1000px;
     }
