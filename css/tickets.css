@@ -11,6 +11,14 @@
     text-decoration: none;
 }
 
+.top_marg {
+    margin-top: 40px;
+}
+
+.img_flex img {
+    width: 40px;
+}
+
 .btn_flex {
     display: flex;
     align-items: center;
