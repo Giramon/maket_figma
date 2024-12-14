@@ -11,10 +11,6 @@
     margin-bottom: 200px;
 }
 
-.left_container {
-    margin-top: 35px;
-}
-
 .right_container {
     margin-left: 50px;
 }
@@ -22,6 +18,14 @@
 .btn_flex {
     display: flex;
     align-items: center;
+}
+
+.top_marg {
+    margin-top: 40px;
+}
+
+.img_flex img {
+    width: 40px;
 }
 
 .text_flex {
